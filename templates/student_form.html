@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}{{ action }} Student - SMS{% endblock %}
+{% block content %}
+<h2>{{ action }} Student</h2>
+<form method="post">
+  <label>Name</label>
+  <input type="text" name="name" value="{{ student.name if student else '' }}" required>
+  <label>USN</label>
+  <input type="text" name="usn" value="{{ student.usn if student else '' }}" required>
+  <label>Branch</label>
+  <input type="text" name="branch" value="{{ student.branch if student else '' }}" required>
+  <label>Year</label>
+  <input type="number" name="year" value="{{ student.year if student else '' }}" min="1" max="8" required>
+  <label>Email</label>
+  <input type="email" name="email" value="{{ student.email if student else '' }}">
+  <label>Phone</label>
+  <input type="tel" name="phone" value="{{ student.phone if student else '' }}">
+  <button type="submit">{{ action }}</button>
+</form>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}View Student - SMS{% endblock %}
+{% block content %}
+<h2>Student Details</h2>
+<ul>
+  <li><strong>Name:</strong> {{ student.name }}</li>
+  <li><strong>USN:</strong> {{ student.usn }}</li>
+  <li><strong>Branch:</strong> {{ student.branch }}</li>
+  <li><strong>Year:</strong> {{ student.year }}</li>
+  <li><strong>Email:</strong> {{ student.email }}</li>
+  <li><strong>Phone:</strong> {{ student.phone }}</li>
+</ul>
+<a href="{{ url_for('edit_student', sid=student.id) }}">Edit</a>
+<a href="{{ url_for('dashboard') }}">Back</a>
+{% endblock %}

@@ -1,0 +1,15 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+header { background:#222; color:#fff; padding:10px 20px; display:flex; justify-content:space-between; align-items:center; }
+header a { color:#fff; text-decoration:none; }
+main { padding:20px; }
+.login-box { max-width:360px; margin:30px auto; padding:20px; border:1px solid #ddd; border-radius:6px; }
+label { display:block; margin:8px 0 4px; }
+input, select { padding:8px; width:100%; box-sizing:border-box; margin-bottom:10px; }
+button { padding:8px 12px; }
+.students-table { width:100%; border-collapse:collapse; margin-top:20px; }
+.students-table th, .students-table td { border:1px solid #ddd; padding:8px; text-align:left; }
+.toolbar { display:flex; justify-content:space-between; align-items:center; gap:10px; }
+.flashes .flash { padding:8px; margin-bottom:8px; border-radius:4px; }
+.flash.success { background:#e0f7e9; color:#064; }
+.flash.danger { background:#fdecea; color:#700; }
+footer { text-align:center; padding:10px; background:#f4f4f4; margin-top:20px; }
