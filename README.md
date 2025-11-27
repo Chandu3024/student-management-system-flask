@@ -265,11 +265,4 @@ Our Selenium functional tests validate the **right side of the V-Model**.
 
 # 👨‍💻 Contributors
 
-- **Chandu S**  
-- (Add others if needed)
-
----
-
-# 🎉 You're all set!
-
-This README is fully professional and ready for GitHub, submission, and portfolio usage.
+- **Chandu S** 
